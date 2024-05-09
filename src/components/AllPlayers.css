@@ -1,0 +1,21 @@
+.puppy-player-container {
+	display: flex;
+	text-align: left;
+	justify-content: center;
+	gap: 1rem;
+	padding: 1rem;
+	background-color: #f0f0f0;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease;
+  }
+  
+  .puppy-player-container:hover {
+	transform: translateY(-3px);
+  }
+  
+  .puppy-player-container img {
+	width: 25%;
+	border-radius: 8px;
+  }
+  
